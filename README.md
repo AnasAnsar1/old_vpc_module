@@ -1,6 +1,11 @@
+## VPC Module
+
+## Usage
+
 ```HCL
 module "vpc" {
-  source = "./vpc"
+  
+  source = "git::git@github.com:AnasAnsar1/vpc_module.git"
 
   vpc_details = {
     Name       = "less_vpc"
